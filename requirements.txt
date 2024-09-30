@@ -1,0 +1,8 @@
+streamlit
+folium
+streamlit-folium
+pandas
+numpy
+pillow
+tensorflow
+plotly
