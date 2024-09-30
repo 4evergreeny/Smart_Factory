@@ -1,53 +1,63 @@
 
 # 라이브러리 불러오기 
-import os
+# import os
+# import pandas as pd
+# import numpy as np
+# import random
+# import time
+# import datetime
+# from PIL import Image, ImageOps,ImageDraw, ImageFont
+# from datetime import timedelta
+# import joblib
+# from xgboost import XGBClassifier
+# from keras.models import load_model
+# from haversine import haversine
+# from urllib.parse import quote
+# import streamlit as st
+# from streamlit_folium import st_folium
+# import folium
+# import branca
+# from geopy.geocoders import Nominatim
+# import ssl
+# from urllib.request import urlopen
+# import requests
+# import csv
+
+# from gtts import gTTS
+# from playsound import playsound
+
+# import plotly.express as px
+# import altair as alt
+
+# import streamlit as st
+# from streamlit_folium import st_folium
+# from folium.plugins import MarkerCluster
+# from io import BytesIO
+# import cv2
+# import tensorflow as tf
+# from datetime import datetime
+# import sqlite3
+# import io
+# import base64
+
+# from svglib.svglib import svg2rlg
+# import hashlib
+
+# import cv2
+# from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
+# import av
+
+# from pymelsec import Type4E
+
+import streamlit as st
+import folium
+from streamlit_folium import st_folium
 import pandas as pd
 import numpy as np
-import random
-import time
-import datetime
-from PIL import Image, ImageOps,ImageDraw, ImageFont
-from datetime import timedelta
-import joblib
-from xgboost import XGBClassifier
-from keras.models import load_model
-from haversine import haversine
-from urllib.parse import quote
-import streamlit as st
-from streamlit_folium import st_folium
-import folium
-import branca
-from geopy.geocoders import Nominatim
-import ssl
-from urllib.request import urlopen
-import requests
-import csv
-
-from gtts import gTTS
-from playsound import playsound
-
-import plotly.express as px
-import altair as alt
-
-import streamlit as st
-from streamlit_folium import st_folium
-from folium.plugins import MarkerCluster
-from io import BytesIO
-import cv2
-import tensorflow as tf
-from datetime import datetime
-import sqlite3
+from PIL import Image, ImageDraw, ImageFont
+import plotly.graph_objects as go
 import io
 import base64
-
-from svglib.svglib import svg2rlg
-import hashlib
-
-import cv2
-from streamlit_webrtc import webrtc_streamer, VideoProcessorBase
-import av
-
-from pymelsec import Type4E
 
 class VideoProcessor(VideoProcessorBase):
     def recv(self, frame):
